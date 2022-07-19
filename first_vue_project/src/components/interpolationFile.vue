@@ -4,6 +4,10 @@
     <p><b>Mobile No :</b> {{mobileNo}}</p>
     <p>Name: {{name}}</p>
     <h6>getValue: {{ getValue(78)}}</h6>
+    <p>displayData = {{displayData()}}</p>
+    <p>accessing property from another component= {{displayData().studentName}}</p>
+   
+
 </template>
 
 <script>
@@ -17,6 +21,15 @@ export default{
                 return x
             },
             name: "Sonali"
+        }
+    },
+    methods:{
+        displayData(){
+            return {
+                studentName : "Mayur",
+                StudEmail : "email",
+                number : this.mobileNo
+            }
         }
     }
 }

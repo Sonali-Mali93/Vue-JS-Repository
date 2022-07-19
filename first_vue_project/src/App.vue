@@ -2,17 +2,20 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App created by Sonali Mali"/>
   <Home msg="ok"/>
+  <InterpolationData msg ="Interpolation "/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
+import InterpolationData from './components/interpolationFile.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Home
+    Home, // register component
+    InterpolationData
   }
 }
 </script>

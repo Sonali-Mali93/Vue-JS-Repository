@@ -1,7 +1,7 @@
 <template>
-    <h3>This is new component</h3>
+    <h3>{{[3,4,5,6,9].pop()}}</h3>
     <h1>{{ msg }}</h1>
-    <h1>this is h2 tag</h1>
+    <h1>{{ "Sonali".split('')}}</h1>
 </template>
 
 <script>

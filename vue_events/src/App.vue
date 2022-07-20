@@ -4,6 +4,7 @@
   <Home/>
   <DataBinding/>
   <InputValues/>
+  <RadioAndCheckboxInputValue/>
 </template>
 
 <script>
@@ -11,13 +12,15 @@ import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
 import DataBinding from './components/data_binding.vue'
 import InputValues from './components/InputValues.vue'
+import RadioAndCheckboxInputValue from './components/chechbox_radio_value.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Home,
     DataBinding,
-    InputValues
+    InputValues,
+    RadioAndCheckboxInputValue
   }
 }
 </script>

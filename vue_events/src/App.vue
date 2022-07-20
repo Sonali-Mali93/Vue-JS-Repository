@@ -3,18 +3,21 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <Home/>
   <DataBinding/>
+  <InputValues/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
 import DataBinding from './components/data_binding.vue'
+import InputValues from './components/InputValues.vue'
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Home,
-    DataBinding
+    DataBinding,
+    InputValues
   }
 }
 </script>

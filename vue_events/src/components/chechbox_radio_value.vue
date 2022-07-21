@@ -13,10 +13,10 @@
 
     <h3>Profession</h3>
     <label for="student">Student</label>
-    <input type="radio" value="student"  id="student"   v-model="profession" name="profession">
+    <input type="radio" value="Student"  id="student"   v-model="profession" name="profession">
 
     <label for="developer">Developer</label>
-    <input type="radio" value="developer"  id="developer"  v-model="profession" name="profession">
+    <input type="radio" value="Developer"  id="developer"  v-model="profession" name="profession">
 
     <h4>Profession : {{ profession }}</h4>
 
